@@ -5,13 +5,12 @@ Juliet is a troubled young woman exiled to Pelican Town for reasons unknown. She
 
 A third housemate can be added, by installing NPC Jade, designed by Malic.
 
-**This mod is a work in progress**
+**This mod is a work in progress. It is NOT compatible with SVE.**
 
 Lodging House: 
 - Fully functional
 - compatible with: Karmylla's Immersive Maps, Stardew Reimagined 2.
 - requires Daisy Niko Tilesheets to load.
-NOT compatible with SVE
 
 Juliet: 
 - Heart events 2, 4 and 6 implemented.
