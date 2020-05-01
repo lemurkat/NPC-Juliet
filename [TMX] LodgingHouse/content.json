@@ -1,0 +1,100 @@
+{
+  "loadLate": true,
+  
+  "addMaps": [   
+   
+	{
+      "name": "ClearingHouse",
+      "file": "assets/ClearingHouse.tbin"
+    },
+	{
+      "name": "LodgingHouse",
+      "file": "assets/LodgingHouse.tbin"
+   },
+   {	"name": "JojaBreakRoom",
+		  "file": "assets/JojaBreakRoom.tmx"
+	
+   },
+   
+
+   {  "name": "TheaterBreakroom",
+      "file": "assets/TheaterBreakroom.tmx"  
+  },
+ 
+   {	
+     "name": "LodgingHouseBasement",
+    "file": "assets/LodgingHouseBasement.tbin"
+
+ }
+
+  ],
+    
+  /* {"mergeMaps": [
+  
+    "name": "Town", 
+  "file": "assets/Town-staircasePatch-SVR2.tmx",
+  "position": [32,0] 
+    },
+
+  {  
+    "name": "Town",
+    "File": "assets/JojaBackDoor.tmx",
+    "position": [90,45]
+}
+],*/
+
+
+
+ "onlyWarps":[
+    {
+      "name": "Town", 
+      "addWarps": [
+        "33 0 ClearingHouse 24 29 34 0 ClearingHouse 25 29 35 0 ClearingHouse 26 29"
+      ]
+    },
+	{
+      "name": "ClearingHouse", 
+      "addWarps": [
+        "23 30 Town 34 2 24 30 Town 34 2 25 30 Town 34 2 26 30 Town 34 2 27 30 Town 34 2 28 30 Town 34 2"
+      ]
+    }
+  ],
+
+"festivalSpots": [
+  {
+    "name": "Juliet",
+    "map": "Town-EggFestival",
+    "position": [14, 57],
+    "direction": 2,
+    "position2": [39, 71],
+    "direction2": 3
+          },
+  {
+    "name": "Gale",
+    "map": "Town-EggFestival",
+    "position": [15, 57],
+    "direction": 2,
+    "position2": [16, 57],
+    "direction2": 2
+          },
+  {
+    "name": "Juliet",
+    "map": "Forest-FlowerFestival",
+    "position": [5, 38],
+    "direction": 3,
+    "position2": [23, 20],
+    "direction2": 3
+          },
+  {
+    "name": "Gale",
+    "map": "Forest-FlowerFestival",
+    "position": [25, 25],
+    "direction": 3,
+    "position2": [21, 30],
+    "direction2": 0
+          }
+
+
+
+]
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "NPC Gale",
+   "Author": "Lemurkat and Fellowclown",
+   "Version": "1.0",
+   "Description": "Adds the NPC Juliet",
+   "UniqueID": "LemurClown.Gale.NPC",
+   "MinimumApiVersion": "1.0",
+      "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   }
+
+}

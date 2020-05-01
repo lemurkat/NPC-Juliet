@@ -1,0 +1,12 @@
+{
+  "Name": "Lodging House",
+  "Author": "LemurKat",
+  "Version": "1.0",
+  "Description": "Adds a rambling boarding house.",
+  "UniqueID": "LemurKat.TMX",
+ "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+			}
+    
+  }

@@ -1,0 +1,11 @@
+{
+"rain": "630 LodgingHouse 17 14 0/700 LodgingHouse 20 14 2/1100 LodgingHouse 8 14 2/1500 LodgingHouse 28 15 0/1800 LodgingHouse 18 14 2/2100 LodgingHouse 20 4 1",
+"spring": "610 LodgingHouse 18 14 2/900 ClearingHouse 17 21 3 Gale_waterL/1100 ClearingHouse 12 13 2 Gale_waterF/1300 ClearingHouse 9 17 1 Gale_waterR/1500 Town 95 51 0/1700 JojaMart 9 25 1 Gale_work/2300 Town 29 13/2500 LodgingHouse 20 4 1",
+"Tue": "610 LodgingHouse 18 14 2/1000 SeedShop 15 23 0/1230 SeedShop 20 24 0 Gale_exercise/1600 Town 95 51 0/1700 JojaMart 9 25 1 Gale_work/2300 Town 29 13/2500 LodgingHouse 20 4 1",
+"Sat": "610 LodgingHouse 18 14 2/650 Town 95 51 0/830 JojaMart 9 25 1 Gale_work/2300 Town 34 10 0/2500 LodgingHouse 20 4 1",
+"Sun": "610 LodgingHouse 18 14 2/650 Town 95 51 0/830 JojaMart 9 25 1 Gale_work/1700 Town 46 32 2/2100 Town 34 10 0 0/2300 LodgingHouse 20 4 1",
+"summer": "GOTO spring",
+"fall": "GOTO spring",
+"winter": "GOTO spring",
+"JojaMart_Replacement": "ClearingHouse 17 21 3 Gale_waterL"
+}

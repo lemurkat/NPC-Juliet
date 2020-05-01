@@ -1,0 +1,62 @@
+{
+    "Format": "1.13.0",
+    "Changes": [
+      {
+        "LogName": "NPC Manifestation",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+            "Entries": {
+          "Gale": "adult/polite/shy/positive/female/not-datable/null/Town/summer 1//LodgingHouse 21 4/Gale"
+        }
+      },
+      {
+        "LogName": "NPC Gift Tastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+          "Entries": {
+          "Gale": 
+          "Thank you! This is just what I wanted!/222 230 254 281 282/Thank you, I shall cherish it./-81 -75 -79 350/Sorry dear, but I'm not a fan./-6 206/I'm sorry. I find this... unpleasant./-4/Thanks. I'm sure this will come in useful.//"
+        }
+      },
+      //Loves Rhubarb Pie, Red plate, Melon, Cranberries, Chanterelle
+      //Dislikes/Hates animal products (eggs, milk, fish), pizza 
+     //Loads Gale
+      {
+        "LogName": "NPC Sprite",
+        "Action": "Load",
+        "Target": "Characters/Gale",
+        "FromFile": "assets/img/GaleSprites.png"
+        },
+      {
+        "LogName": "NPC Portrait",
+        "Action": "Load",
+        "Target": "Portraits/Gale",
+        "FromFile": "assets/img/GalePortraits.png"
+      },
+      {
+        "LogName": "Schedule",
+        "Action": "Load",
+        "Target": "Characters/schedules/Gale",
+        "FromFile": "assets/schedules/schedule.json"
+        },
+      {
+        "LogName": "Dialogue",
+        "Action": "Load",
+        "Target": "Characters/Dialogue/Gale",
+        "FromFile": "assets/dialogue/Dialogue.json"
+        },
+    
+      {
+        "LogName": "Animations",
+        "Action": "EditData",
+        "Target": "Data/animationDescriptions",
+        "Entries": {
+              "Gale_work": "0 12 24 24 24/20 20 20 20 20 20 21 21 21 20 20 20 22 22 20 20 22 22 20 20 21 21 21 21 20 20 20 23 23 23 20 20 20/24 24 24 12 0",
+              "Gale_exercise": "0 18/16 16 16 16 16 17 17 17 17 16 16 16 16 16 16/18 0",
+              "Gale_waterL": "25/25/25",
+              "Gale_waterR": "26/26/26",
+              "Gale_waterF": "27/27/27"
+        }
+      }
+    ]
+}
