@@ -1,0 +1,35 @@
+{  
+    "Entries": { 
+    
+    
+    
+        "Juliet": {
+	"Name": "Juliet",
+	"LovedTags": [
+		"Sour Slimes",
+		"Personal Pizza",
+		"Nachos",
+		"Stardrop Sorbet",
+        "Black Licorice"
+	 
+	],
+	"LikedTags": [
+	  "Ice Cream Sandwich",
+	  "Popcorn",
+	  "Chocolate Popcorn"
+	],
+	"DislikedTags": [
+	  "Hummus Snack Pack",
+	  "Kale Smoothie",
+	  "Salmon Burger"
+    ]
+    
+
+
+
+
+
+    
+  } 
+ }
+}

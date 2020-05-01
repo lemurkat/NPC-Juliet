@@ -1,0 +1,81 @@
+Event IDs and Event Qs
+86571100: Playing the drums
+86571101: Finding Gremlin (need option for post CC completion)
+
+86571102 Band Question
+	....1103 Band Yes
+	....1104 Band No
+	....1105 Innuendo comment
+
+86571116 Finding Gremlin
+	....1116 apologise/indignant
+	....1118 vermin
+
+
+
+Questions in Dialogue
+86571010 Jules Music: Heavy Metal
+86571011 Classical/Pop
+...1012 Music sucks
+
+86571001 Spirits Eve
+...1002 Pirate
+...1003 Zombie Bride
+...1004 Ghost
+
+...1005 Keep me warm
+...1006: Penny/Haley
+...1007 Alex/Shane
+...1008 Me (farmer)
+...1009 Gross!
+
+2 Hearts: playing the drums - DONE
+4 Hearts: adopting Gremlin - DONE but will need a post-Joja equivalent
+
+6 Hearts:
+Juliet and Morris are having an argument over the disappearing meat.
+
+
+"86571110/f Juliet 1500/d Sat Sun/t 0900 1700": "none/13 11/Juliet 2 8 1 Morris 4 8 3 farmer 2 13 0/skippable/pause 500/speak Juliet \"...It was going in the trash anyway. It's not my fault that you over-ordered!\"/emote Morris 12/emote Juliet 12/shake Juliet 350/faceDirection Juliet 0/textAboveHead Juliet \"Screw you Morris\"/speed Juliet 7/move Juliet 0 -4 0/warp Juliet -100 -100/playSound doorClose/speed farmer 5/ move farmer 0 -5 1/textAboveHead Morris \"Insolent brat!\"/emote farmer 40/speed farmer 5/move farmer 0 -4 0/warp farmer -100 -100/playSound doorClose/globalFade/viewport -2000 -2000/changeToTemporaryMap JojaMartBreakroom false/viewport -1000 -1000/warp Juliet 2 5/faceDirection Juliet 1/advancedMove Juliet 5 0 0 5/viewport 11 7/textAboveHead Juliet \"Idiot...\"/pause 1000/emote Juliet 12/warp farmer 2 10/pause 500/move farmer 0 -2 0/quickQuestion#Are you okay?#How can I help?#What have you done now?#Well, Morris is a pillock, isn't he?(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Do I look like I'm freaking okay?$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Don't give me that customer service BS.$4\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Oh, so it's MY fault now, @? I thought we were friends...$5\"(break)jump Juliet\\faceDirection Juliet 2\\speak Juliet \"Too freaking right.$4\"/pause 500/faceDirection Juliet 0/speak Juliet \"I hate him. Sometimes I wish I could just freaking quit.$5\"/question null \"#Well? ...#Why don't you?#Say nothing.\"/speak Juliet \"Because I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it.$2#$b#Have you ever done something so freaking terrible that just made you wish you could restart the day afresh and do things different?$2\"/pause 500/emote farmer 28/pause 500/speak Juliet \"No? I have, and I did. And no, I don't want to talk about it.\"/pause 500/advancedMove Juliet 4 0 -4 0/speak Juliet \"And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't.\"/pause 500/faceDirection Juliet 0/pause 500/move farmer 0 -2 0/move Juliet 0 1 3/shake Juliet 350/pause 500/quickQuestion#What did you do?#I'm here for you.#Did you kill someone?(break)emote Juliet 12\\speak Juliet \"I was young and dumb. Not that that's any freaking excuse.$2#$b#And what part of 'I don't want to talk about it don't you understand?$5#$b#But, I 'spose it's gonna come out sooner or later, and you deserve to know.$2"(break)emote Juliet 40\\speak Juliet \"Really? Are you sure about that, @?$3#$b#You might not be, if you knew the full story.$5#$b#I suppose I'd better tell you, so you can run for the hills now while you still have the chance.$2\"(break)faceDirection Juliet 1//pause 500/shake Juliet 250/speak Juliet \"No... not exactly...$2\"/pause 500/emote farmer 28/move Juliet 0 2 3/speak Juliet \"It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.$2\"/pause 500/emote farmer 40/pause 500/speak Juliet \"I loved him. I was that poor dumb kid, desperate for attention.$2#$b#I could've stopped him. Called him on his idiocy. Walked away. But no. I panted along behind him like a lapdog.$2#$b#Got dragged into his dumbass pranks... and everything went horrible wrong.$2\"/pause 500/emote Juliet 40/pause 500/speak Juliet \"Anyhow, he got a life sentence. And I was exiled here. I guess this is it, that you're gonna do the sensible thing, and walk away.\"/question fork0 \"...#Walk away#Stay and comfort Juliet\"/fork WalkAway/pause 500/move farmer 0 -1 1/speak Juliet \"Really? You wanna stick with me, despite... well, despite everything?\"/pause 500/emote farmer 32/pause 500/speak Juliet \"Thank you, @. That means a lot.$4\"/emote Juliet 20/pause 1000/end"
+
+"Action":"EditData"
+"Target": "Data/Events/JojaMartBreakroom"
+"Entries": {
+"WalkAway": "emote farmer 12/pause 500/faceDirection 2/move farmer 0 5 0/warp farmer -100 -100/friendship Juliet -1000/speak Juliet \"Goodbye...$s\"/faceDirection Juliet 0/shake Juliet 500/end dialogue Juliet \"You made the right choice, @. I'd walk away from me too.\""
+}
+
+
+
+ Option to ask her:
+quickQuestion
+"Are you okay?" to which she replies (angry) "Do I look like I'm freaking okay?"
+"Can I help you?" response (tearful smile) "Don't give me that customer servce BS."
+"Well, Morris is a pillock." response (tearful smile) "too freaking right."
+"What have you done?" response (angry) "Oh, so it's MY fault now? Gods, @, I thought we were friends."
+
+"I hate him, sometimes I wish I could just freaking quit."
+
+question: Choice: "Why don't you?" or "stay quiet". Neither actually changes the way the scene proceeds.
+
+Juliet then reveals part of why she's in Pelican Town.
+"Because I can't, all right? You do the crime, you do the time. And it's not like I don't deserve it. Have you ever done something so freaking terrible that just made you wish you could restart the day afresh and do things different?"
+Pause, emote farmer something: ... or sweatdrop maybe?
+"No? Well I have, and I did. And no, I don't want to talk about it." (make her pace back and forth so it's not all dialogue boxes). "And if I'm exiled to this tiny town in the tail-end of nowhere and indentured to the megacorp master, so what? I got off lightly. He didn't."
+Farmer moves towards her (emote suggesting comforting?). Juliet jerks away and paces back and forth.
+
+quickQuestion??
+"What did you do?": Juliet angry emote. "I was young and dumb. Not that that's any freaking excuse. And what part of 'I don't want to talk about it don't you understand? But, I 'spose it's gonna come out sooner or later, so I might as well tell you."
+"I'm here for you.": Juliet ... emote. Pause. "Really? Are you sure about that, @? You might not be, if you knew the full story." Emote farmer shaky smile. "I suppose I'd better tell you, so you can run for the hills now while you still have the chance."
+"Did you kill someone?" Juliet turns her back, steps away. Shakes. Juliet emote ... textAboveHead Juliet \"No.\"/pause 1000/textAboveHead Juliet \"Not exactly...\"/pause 500/
+
+emote farmer sweatdrop/pause 500/speak Juliet \"It was an accident... two kids, drunk on impulsivity and cheap vodka. He thought it would be funny... but no-one's laughing now.\"/pause 500/emote farmer .../pause 500/speak Juliet \"I loved him. I was that poor dumb kid, desperate for attention. I could've stopped him. Called him on his idiocy. Walked away. But no. I panted along behind him like a lapdog. Got dragged into his dumbass pranks... and everything went horrible wrong.\"/pause 500/emote Juliet .../pause 500/speak Juliet \"Anyhow, he got a life sentence. And I was exiled here. I guess this is it, that you're gonna do the sensible thing, and walk away."
+
+questionFork
+Choice:
+Walk away.
+Stay and comfort Juliet.
+
+
+
+
+

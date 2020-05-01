@@ -1,0 +1,12 @@
+{
+   "Name": "Juliet and Lodging House",
+   "Author": "Lemurkat",
+   "Version": "1.0",
+   "Description": "Adds the NPC Juliet",
+   "UniqueID": "LemurKat.Juliet.NPC",
+   "MinimumApiVersion": "1.0",
+      "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   }
+
+}

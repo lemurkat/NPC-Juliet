@@ -1,0 +1,12 @@
+ {
+    "NPCName": "Juliet",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "reject",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      }
+    ]
+  }

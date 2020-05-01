@@ -1,0 +1,45 @@
+{
+
+"Changes": [
+
+    {
+    "LogName": "Juliet 4-heart meet Gremlin",
+    "Action": "EditData",
+    "Target": "Data/Event/Town",
+    "Entries": {
+        "86571101/f Juliet 1000/t 1600 1800/w sunny": "none/-100 -100/Juliet 96 53 farmer 106 66/addTemporaryActor Gremlin 16 32 109 56 1 false/animate Gremlin false true 300 22 22 23 23 23/skippable/viewport 100 59/playSound trashcan/move Juliet 0 3 1/pause 500/playSound dogWhining/jump Juliet 3/pause 500/emote Juliet 16/pause 500/playSound trashcan/pause 500/move Juliet 2 0 1/textAboveHead Juliet \"Hey puppy.$4\"/move Juliet 2 0 1/pause 1000/move Juliet 2 0 1/pause 1000/textAboveHead Juliet \"Don't be scared.\"/pause 1000/move farmer 0 -4 0/pause 500/stopAnimate Gremlin/pause 500/faceDirection Gremlin 3/shake Gremlin 250/showFrame Gremlin 18/pause 500/faceDirection Juliet 2/pause 500/speak Juliet \"Stop! You'll scare her.$5\"/pause 500/emote farmer 28/pause 500/playSound dog_bark/pause 500/shake Gremlin 250/playSound dog_bark/faceDirection Juliet 1/showFrame Juliet 26/pause 500/speak Juliet \"It's okay. We're not gonna hurt you. Here, I got you something.\"/addObject 104 56 641 0/pause 500/emote farmer showFrame Gremlin 12/pause 500/playSound dog_pant/move Gremlin -1 0 1/pause 500/move Gremlin -1 0 1/pause 500/playSound dog_bark/textAboveHead Juliet \"It's okay girl.\"/move Gremlin -2 0 1/animate Gremlin false true 250 28 29 28 29 4 4 4 4/advancedMove Juliet false -1 0 0 5 4 0/faceDirection Juliet 1/pause 500/speak Juliet \"What? Yeah, it's Joja meat and mostly water, but it won't hurt her.$3#$b#Yoba, what were you thinking charging in like that? You almost scared her away!\"/pause 500/emote farmer 40/speak Juliet \"$q 86571106 null##$r 8651107 25 Juliet_Gremlin_Apologise#I'm sorry...I didn't mean to scare her#$r 8651107 0 Juliet_Gremlin_Charge#What do you mean charging?#$r 8651108 -50 Juliet_Gremlin_Pest#You shouldn't be encouraging pests.\"/pause 500/fork 8651108 Juliet_Gremlin_Disgust/pause 500/faceDirection Juliet 0/speak Juliet \"Well, no harm, no foul, right? She's been hanging around for days. Poor thing.$2#$b#I've been trying to get her to trust me. Doesn't help Morris throws junk at her everytime he sees her.$5\"/removeSprite 104 56/stopAnimate Gremlin/showFrame Gremlin 0/pause 500/move Gremlin 0 2 0/pause 1000/emote Juliet 32/pause 500/move Gremlin 0 1 0/pause 1000/animate farmer 28/move Gremlin 0 1 0/textAboveHead Gremlin \"Arruuu?\"/pause 500/move Gremlin 0 1 0/warp Gremlin -100 -100/showFrame Juliet 27/pause 1000/emote Juliet 20/pause 500/emote farmer 28/pause 10000/end dialogue Juliet \"She followed me home, @... I guess I have a dog now?$1\"",
+       
+        "Juliet_Gremlin_Disgust": "pause 500/emote Juliet 12/pause 500/faceDirection Juliet 0/pause 1000/emote farmer 28/pause 500/speak Juliet \"%Juliet is ignoring you.\"/pause 1000/end"  
+        
+      
+        }
+    },
+
+{
+    "LogName": "Juliet 2-heart drum practice",
+    "Action": "EditData",
+    "Target": "Data/Event/LodgingHouse",
+    "Entries": {
+        "86571100/f Juliet 500/t 900 1600/w sunny/p Juliet": "heavy/17 14/Juliet 32 7 0 farmer 13 18 0/skippable/animate Juliet false true 150 32 33 34/emote farmer 16/move farmer 18 0 0/move farmer 0 6 0/doAction 31 12/move farmer 0 3 0/pause 1000/stopMusic/pause 500/faceDirection Juliet 3/pause 500/jump Juliet 3/pause 500/emote Juliet 40/pause 500/speak Juliet \"@!$5#$b#Why are you here?$3\"/quickQuestion#To see you of course!#I wanted to see Gale#I was bored(break)speak Juliet \"Really? You came up here just to see me? Did someone put you up to this?$3#$b#No? Well, I'd say I'm honored but I'm actually suspicious.\"(break)speak Juliet \"Well you're out of luck then, aren't you just?$3\"(break)speak Juliet \"I'm totally with you on that one. Ain't much to do in this town except charge into people's houses unannounced.\"/payse 500/speak Juliet \"Anyway, since you're here and all, can I run something past you? You seem like you'll be honest.\"/pause 500/emote farmer 32/speak Juliet \"Sam's always going on about this 'band' he's putting together with him and Sebastian. And I was wondering...#$b#$q 86571103/86571104/86571105 null#Should I ask to play with them?#$r 86571103 50 Jules_BandY#Yes, definitely, you rock!#$r 86571103 25 Jules_BandM#Sure, what can you lose?#$r 86571104 0 Jules_BandN#I don't think you'd fit in#$r 86571104 -50 Jules_BandS#Heck no! Your playing sucks.#$r 8571105 25 Jules_BandP#...with them musically or...?\"/pause 500/speak Juliet \"Well, thanks for your input. I'd better get on now and do the things. See ya 'round.$1\"/end dialogue Juliet \"$p 86571104#Emo-Gothboy's real keen on Abigail joining the band, so I guess there ain't much point in trying anyway.$2|I talked to Sam, and he's keen on me jamming with them! Thanks, @.$1" 
+    }
+},
+{
+    "LogName": "Schedule",
+    "Action": "EditData",
+    "Target": "Characters/schedules/Juliet",
+    "Entries": {
+        "Sat": "700 LodgingHouse 21 16 1/900 LodgingHouse 32 7 0/1000 Beach 12 39 2/1330 SamHouse 12 39 0 Juliet_drums/1800 Saloon 42 20 3/2400 LodgingHouse 27 6 2 Juliet_sleep",
+                    },
+        "When": {
+               "HasDialogueAnswer": "86571103, 86571105"
+        }
+
+
+
+
+
+
+
+}
+]
+}
