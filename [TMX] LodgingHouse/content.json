@@ -92,8 +92,35 @@
     "direction": 3,
     "position2": [21, 30],
     "direction2": 0
-          }
+          },
 
+{
+  "name": "Gale",
+  "map": "Beach-Luau",
+  "position": [41, 17],
+  "direction": 3,
+  "position2": [38, 15],
+  "direction2": 0
+        },        
+
+{
+  "name": "Juliet",
+  "map": "Beach-Luau",
+  "position": [26, 17],
+  "direction": 2,
+  "position2": [25, 19],
+  "direction2": 1
+        },   
+
+{
+  "name": "Gremlin",
+  "map": "Beach-Luau",
+  "position": [49, 22],
+  "direction": 0,
+  "position2": [26, 20],
+  "direction2": 0,
+  "Conditions": "e 86571101"
+        }   
 
 
 ]
