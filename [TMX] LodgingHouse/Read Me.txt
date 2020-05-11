@@ -49,8 +49,10 @@ SPECIAL CREDIT TO:
   She is his character, and he has kindly gifted her to me for use in this mod, as Juliet's landlord, role model, guardian and friend.
   I hope I have presented her well.
 * DaisyNiko for her beautiful flowers and other garden decorations that have brought the lodging house's clearing into beautiful life.
-* Minerva and Eemie for the beautiful Victorian House that is the lodging house.
+* Eemie (and Minerva) for the beautiful Victorian House that is the lodging house. [Nexus: 890]
 * Efa for the edits on my Juliet portrait that brought her into glorious life.
-* EssGee for help with Juliet's Joja portrait, and being another supportive NPC creator.
+* EssGee for Gremlin's portrait, and help with Juliet's alt-attire portraits - also for being another supportive NPC creator.
 * Malic for allowing Jade to move in and become Juliet's roomie (housemate/flatmate/friend).
-* Everyone else on the Stardew Valley Discord and all the other related SDV discord channels that have offered suggestions, advice, listened to me vent, and overall just been awesome at guiding me through the process.
+* Haleatsburrito for 'Yet Another Dog Mod' [Nexus:1853] whose pomeranian formed the basis for Gremlin.
+* Pathoschild for creating Smapi, Content Patcher, and also helping me when Juliet began wilfully refusing to work.
+* Everyone else on the Stardew Valley Discord and all the other related SDV discord channels that have offered suggestions, advice, listened to me vent (have I mentioned Juliet it troublesome?), and overall just been awesome at guiding me through the process.
