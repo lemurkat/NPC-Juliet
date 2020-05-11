@@ -15,10 +15,11 @@ Lodging House:
 Juliet: 
 - Heart events 2, 4 and 6 implemented.
 - Schedule organized for Joja, Community Center and Theater
+** Theater schedule currently only works with Karmylla's Immersive Maps installed. This will hopefully be fixed with the release of 'NPC Creatures' which will allow me to warp Juliet instead of relying on pathfinding.**
 - Needs additional Dialogue and current dialogue/heart events subject to change.
 - Marriage Dialogue incomplete.
 - Marriage schedule not done.
-- Adds Gremlin after seeing 4-heart event if antisocial NPCs installed.
+- Adds Gremlin after seeing 4-heart event if antisocial NPCs installed. **this switch to 'NPC Creatures' when it is released**
 - festival dialogue/costumes/positions only coded for spring.
 
 - please note that the 6-heart event takes place in the JojaMart. As the core game does not contain a Data/Events/JojaMart.xnb, this mod will install one. If you are running NPC Nikolai, NPC Herbert, SVE (despite the lack of compatibility mentioned above), or another mod that LOADs the Events/JojaMart you will need to disable the config - in which case it will just edit the already existing file. Given that there is a chance you may install Juliet post-CC completion, there will also be an alternative variant of the 4-heart and 6-heart scenes with a different setting, although this has yet to be written.
@@ -34,6 +35,7 @@ REQUIREMENTS:
 - Content Patcher
 - TMXL
 - DaisyNiko Tilesheets
+- NPC Creatures (not yet released, but will be required for this mod to function properly).
 
 Recommended:
 - Antisocial NPCs (without this mod, Gremlin won't load as a character and will only appear in heart events)
@@ -41,6 +43,6 @@ Recommended:
 
 CREDITS:
 Gale's sprite, portrait, and outline of her personality was designed by Fellowclown and is used with permission.
-Their lodging house was created by Eemie, and is used with permission.
+Their lodging house was originally created by Eemie (https://www.nexusmods.com/stardewvalley/mods/891).
 Gremlin's portraits were deisgned by me, refined by EssGee.
 Juliet's portraits were designed by me, refined by Efa (Also EssGee for some of her outfits).
