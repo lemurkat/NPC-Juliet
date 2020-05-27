@@ -43,6 +43,31 @@ Recommended:
 
 CREDITS:
 Gale's sprite, portrait, and outline of her personality was designed by Fellowclown and is used with permission.
-Their lodging house was originally created by Eemie (https://www.nexusmods.com/stardewvalley/mods/891).
+Their lodging house was created by Eemie (https://www.nexusmods.com/stardewvalley/mods/891).
 Gremlin's portraits were deisgned by me, refined by EssGee.
+Gremlin's sprites were modified from Just Another Dog Mod (https://www.nexusmods.com/stardewvalley/mods/1853)
 Juliet's portraits were designed by me, refined by Efa (Also EssGee for some of her outfits).
+
+JOJAMART CONFIG DETAILS:
+At least three mods I know of add a JojaMart event file: SVE, Nikolai and Herbert. Thus I have set a configurable option to counteract this:
+
+ "ConfigSchema": {
+    "LoadJojaMart": {
+        "AllowValues": "true, false",
+        "Default": "true"
+                  }
+  },
+
+ and 
+
+{
+    "Logname": "JojaMart Events",
+    "Action": "Load",
+    "Target": "Data/Events/JojaMart",
+  "FromFile": "assets/events/JojaMart.json",
+  "When": { 
+    "LoadJojaMart":true
+  }
+},
+
+ which uploads a blank JojaMart event file if the config is set to True. Note it is True by default, and you will need to actually check the smapi text to notice a conflict (or just discover a heart event won't trigger). The actual event is then added via EditData as per usual.
