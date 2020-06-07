@@ -3,7 +3,7 @@ Adds NPCs Juliet and Gale, plus their house.
 
 Juliet is a troubled young woman exiled to Pelican Town for reasons unknown. She and her landlord/housemate/friend work rotating shifts at the JojaMart. Juliet is sharp-tongued, flirty, and irrepressible. Gale is matronly, empathic, and a keen gardener.
 
-A third housemate can be added, by installing NPC Jade, designed by Malic.
+A third housemate can be added by installing NPC Jade, designed by Malic.
 
 **This mod is a work in progress. It is NOT compatible with SVE.**
 
