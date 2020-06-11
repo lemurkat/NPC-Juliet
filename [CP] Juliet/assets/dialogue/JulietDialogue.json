@@ -3,10 +3,12 @@
   "danceRejection": "Why would I want to dance with you?#$b#Nah, I've got my eyes on the cute red-head.",
   "divorced": "Get out of my face.",
   "dumped_Girls": "Playing the field? Well, not that I blame you, some of the girls are pretty hot, but you should've told us.#$b#Keeping it to yourself just isn't cool.",
-  "secondChance_Girls": "wanna date us all? I'm cool with that, now it's all out in the open and all that.",
+  "dumped_Guys": "You really dated ALL the guys? And here I was thinking I'd be the center of gossip in town!",
+  "secondChance_Girls": "Wanna date us all? I'm cool with that, now it's all out in the open and all that.",
   "breakUp": "Fine. I was starting to get bored of you anyway.",
-  "give_FlowersA": "Are you sure? I mean, absolutely sure? I mean, I'm fifty shades of totally effed up.$2#$b#Okay sure, yeah, I do wanna date you, you doofus, I just wanted to remind you what you're getting yourself into.$4",
-  "give_FlowersB": "Hey, is that deadly nightshade? Awesome! You know me too well.",
+  "give_flowersA": "Are you sure? I mean, absolutely sure? I mean, I'm fifty shades of totally effed up.$2#$b#Okay sure, yeah, I do wanna date you, you doofus, I just wanted to remind you what you're getting yourself into.$4",
+  "give_flowersB": "Hey, is that deadly nightshade? Awesome! You know me too well.",
+  "FullCrabPond": "I hear you've got crabs.$2#$b#Of the crustacean kind! You should go talk to Willy.$1",
   
   "Mon": "What are you staring at? Trying to work out if I'm pierced elsewhere?#$b#Wouldn't you like to know?",
   "Mon2": "Do you smoke, @? I tried it once, but it kinda sucked, you know.#$b#Basically like burning money. And Joja don't pay me enough for that kinda past-time.",
@@ -36,7 +38,7 @@
   "Sat8": "We ain't that different, Shane and me... we're both one step from the abyss.$2#$b#Only he dulls his with booze and I dull mine with...well... you know.$2#$b#Anyhow, you didn't come here to help me air my dirty laundry, did you just?$1",
   
   "Sun": "Hey farmer-person, I see you're enjoying your day of rest.#$e#Yeah, I know, no rest for the wicked, right?",
-  "Sun8": "$d CC#I can't believe I've got community service _again_. I reckon Mayor Lewd's just making up stuff now so I'll do his dirty work for him.#$e#All work and no play makes jack a dull boy... but does it? You work hard, don't you @, and you're not dull.",
+  "Sun8": "$d CC#I can't believe I've got community service _again_. I reckon Mayor Lewd's just making up stuff now so I'll do his dirty work for him.$k#$e#All work and no play makes jack a dull boy... but does it? You work hard, don't you @, and you're not dull.",
 
   "spring_Beach4": "Hi @! Wait? What's that? Something moving out there, some kind of large dark shape... It's coming closer!$3#$b#Haha, gotcha. There's nothing.$1",
   "summer_Mon": "You're all sweaty, what have you been up to?$3#$b#Yeah, I guess working on a farm in this heat is pretty rough.$1#$b#Thank Yoba for Joja's aircon.",
@@ -64,7 +66,7 @@
   "fall_Mon4": "$q 86571001 Jules_SpiritsEve#@! What should I dress as for Spirit's Eve?#$r 86571002 50 Jules_Pirate#A sexy pirate#$r 86571003 50 Jules_Zombie#A zombie bride!#$r 86571004 0 Jules_Ghost#A ghost!",
   "Jules_Pirate": "Aye me hearties! Shiver me timbers, I'll make you walk the plank for that!#$b#That's a great idea. I wonder if I could find a parrot?",
   "Jules_Zombie": "That's a brilliant idea! @, I could kiss you!#$b#If only to eat your brains, your delicious brains...",
-  "Jules_Ghost": "Like in a sheet and stuff? Well, that's boring.#$b#You might be cute, but your imagination is sadly lacking.",
+  "Jules_Ghost": "Like in a sheet and stuff? Well, that's boring.#$b#You might be cute, but your imagination's sadly lacking.",
   "Jules_SpiritsEve": "What am I gonna wear for Spirit's Eve? Well, you'll have to wait and see.#$b#I hope you're dressing up too! I don't wanna be the only one!",
   "fall_Tue4": "Who do you think Mona was? The dead girl in the graveyard? She must've been pretty important to be buried here.$3",
   "fall_Wed4": "You ever wondered 'bout your grandfather, farmer @? The old folks here could probably tell you all kinds of tales.#$b#Old people love to gossip. I should know, Gran and Grumps are in every few days.",
@@ -99,6 +101,7 @@
 "cc_Complete": "Well, I guess that's it then, I've been liberated from the Joja shackles...$3#$b#Doesn't mean I'm free though... Lewis has me signed up for some of that community service BS.$2#$b#Ah well, guess I've still gotta serve my time.$1",
 "movieTheater": "So I opened the door this morning, and there was this green dress, with an employment contract tucked into it. Weird, huh?",
 "JasperGone2": "Hey, do you know what happened to that lanky professor guy, the one who looks like he stepped out of a storybook? I haven't seen him around recently.#$b#I hope none of those monsters he's always rambling about ate him.$2",
+"JasperHomeA": "So, I hear the professor's back and monsters ate his leg. Nasty stuff. Poor guy.$2#$b#You should take him something - pretty sure he likes blueberries; he certainly used to buy a ton of them.$3",
 
 //mentions of Jade
   "Sun2": "You're not afraid of spiders, are you? My housemate, Jade, is sweet on all kinds of creepy crawlies, so you never know what might crawl into your ear when you're asleep.",
@@ -120,9 +123,28 @@
   "Saloon_42_21": "Right... I've just got to line up my shot and... DAMN! oh, @! You surprised me.$3#$b#Yeh, that's why I missed, not because I suck at this. Wanna play?$1",
   "TheaterBreakroom_Mon": "When they said I'd be hanging out with lovely birds all day... I didn't think they meant the feathered kind!$1",
   "TheaterBreakroom_Tue": "Nah, I don't watch the movies, movies aren't really my thing, you know?#$b#But I love watching people's faces as they watch the movies. Especially the scary ones!$1",
-  "TheaterBreakroom_Wed": "$c 0.7#Don't tell Management, but sometimes I let Gremlin in here. Wait... you're not Management, are you? I still don't know who's paying me!$3#$b#Gremlin got into the concessions bags yesterday. What a freaking mess. I guess she really likes popcorn.$5",
-  "TheatherBreakroom_Thu": "$c 0.05#Hey @, I thought you might like to see a movie sometime. See who you can coerce into joining you.$4[809][809]#$b#Hey @, seen any good movies lately? Me? I like the truly out-there crazy stuff. None ot the saccharine-sweet feel-good nonsense.$1",
+  "TheaterBreakroom_Wed": "$c 0.7#Don't tell Management, but sometimes I let Gremlin in here. Wait... you're not Management, are you? I still don't know who's paying me!$3#$e#Gremlin got into the concessions bags yesterday. What a freaking mess. I guess she really likes popcorn.$5",
+  "TheaterBreakroom_Thu": "$c 0.05#Hey @, I thought you might like to see a movie sometime. See who you can coerce into joining you.$4[809][809]#$b#Hey @, seen any good movies lately? Me? I like the truly out-there crazy stuff. None ot the saccharine-sweet feel-good nonsense.$1",
   
+//Unique Dialogue Mods (Courtship/Jealousy responses)
+"give_pendant": "Oooh, shiny! You realize this means you'll gonna be stuck with me until I get bored of you right?$1#$b#Heh, like that's ever gonna happen! I'll get everything sorted. See you in three days, lover!",
+"stardrop_gift": "Hey, I thought you might like this. Yeh, you make me happier than I ever thought I'd be. I know, corny, eh?$4",
+"reject_two_heartA": "Flowers? I mean you're cute and all, but I'm not ready for that kinda commitment.$2",
+"reject_two_heartB": "Flowers? Seriously? Yoba, get to know me first, you might have second thoughts about that!$2",
+"reject_four_heartA": "Hey, I like you well enough, but I think you're getting the wrong idea.$2",
+"reject_four_heartB": "Flowers? Oh, you're cute. But no.$2",
+"engageA": "Hey, does your betrothed know about this? No?#$B#Well, I cool with open relationships, but 'open' means that you communicate and stuff too, you know.$5",
+"engageB": "Are you propositioning everyone in town now, @? Good luck with that.$1",
+"marriedA": "Oh, I dunno... I like you well enough, but your farmhouse is going to be awfully crowded - and I need my space.$2#$b#So that's a 'no' from me.$1",
+"marriedB": "Hey, if %spouse is cool with it, well... come back and see me then, okay?",
+"refusal_no_heartsA": "Oh come on, we barely even know each other!$1",
+"refusal_no_heartsB": "Hey, it's pretty, but how about you take it somewhere else?",
+"refusal_knownA": "Hah, me, get hitched? That's a ridiculous idea!$1",
+"refusal_knownB": "Aww, you're adorable. But no.",
+"refusal_botherA": "What part of 'no' didn't you understand?$2",
+"refusal_botherB": "Oh, stop pestering me! Persistance doesn't pay, you know. It gets you slapped with a tresspass notice.$5",
+"giftquestion_yes": "Hah, yeah, I'm cool with you sharing our bounty around, as long as you keep the best for me!$1",
+"giftquestion_lie": "Hey I'm pretty much cool with everything except lying. So don't give me that BS.$5",
 
 //Event Question Dialogue
 

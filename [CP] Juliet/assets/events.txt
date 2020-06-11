@@ -1,6 +1,8 @@
 Event IDs and Event Qs
 86571100: Playing the drums
 86571101: Finding Gremlin (need option for post CC completion)
+86571110: JojaMart
+86571120: melons (tokens for Morris or Lewus to interupt)
 
 86571102 Band Question
 	....1103 Band Yes
@@ -76,6 +78,13 @@ Walk away.
 Stay and comfort Juliet.
 
 
+10 Hearts
+Juliet invites you to Grampleton cemetary.
+Catch a bus?
 
 
+/speak Shane \"Hey, there you are!$6#$b#I'm glad you decided to come. We should get going...$6\"
+/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/
+move Gus 3 0 0/move Gus 0 -2 0/faceDirection Shane 3 true/playSound thudStep/warp Gus -100 -100/
+move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/
 

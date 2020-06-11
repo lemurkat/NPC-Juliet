@@ -24,7 +24,7 @@
     }
 },
 {
-    "LogName": "Schedule",
+    "LogName": "Schedule change",
     "Action": "EditData",
     "Target": "Characters/schedules/Juliet",
     "Entries": {
@@ -33,13 +33,94 @@
         "When": {
                "HasDialogueAnswer": "86571103, 86571105"
         }
+    },
+
+    {
+        "Name": "bossGuy",
+        "Value": "Lewis",
+        "When": {
+            "IsCommunityCenterComplete":true
+            }
+    },
+    {
+        "Name": "bossGuy",
+        "Value": "Morris",
+        "When": {
+            "IsCommunityCenterComplete":false
+            }
+    },
+    { 
+        "LogName": "Temp Actor Melon",
+        "Action": "Load",
+        "Target": "Characters/Melon",
+        "FromFile": "assets/img/melon.png"
+
+    },
 
 
+{
+        "Logname": "8-heart event",
+        "Action": "EditData",
+        "Target": "Data/Events/Town",
+        "Entries": {
+            "86571120/e 86571110/f Juliet 2000/p Juliet/w sunny": "continue/83 40/Juliet 94 25 1 farmer 94 34 0 {{bossGuy}} -100 -100 0/skippable/addTemporaryActor Melon 16 16 -100 -100 0 false false/animate Juliet false true 150 49 49 49 49 50 50 51/warp Melon 95 24/speed Melon 7/playSound throw/move Melon 6 0 0/warp Melon -100 -100/playSound slimedead/addObject 255 101 24/emote farmer 8/showFrame Juliet 49/pause 500/showFrame Juliet 50/move farmer 0 -7 1/pause 500/jump Juliet 2/showFrame Juliet 51/playSound slimedead/addObject 255 97 25/faceDirection Juliet 2/emote Juliet 12/speak Juliet \"You startled me!\"/quickQuestion #What are you doing?#Why are you wasting melons?#Sorry.(break)speak Juliet \"What does it look like I'm doing?$5\"(break)speak Juliet \"Oh, relax, @. They're not your precious organic farm-grown melons. They're Joja crap destined for the dumpster.\"(break)speak Juliet \"No worries.\"/pause 500/speak Juliet \"I can see why emo-kid enjoys this so much. It's intensely satisfying. Better stress relief than coloring in!#$b#You wanna have a go?\"/emote farmer 40\"/pause 500/warp {{bossGuy}} 94 41/move {{bossGuy}} 0 -7 0/emote {{bossGuy}} 16/pause 500/speak {{bossGuy}} \"What are you doing?!!$3\"/faceDirection farmer 2/faceDirection Juliet 3/speak Juliet \"Busted! Run!\"/speed Juliet 3/move Juliet 0 -4 0/move farmer 0 -4 0/globalFade/viewport -2000 -2000/warp Juliet 46 33/warp farmer 45 33/faceDirection Juliet 3/faceDirection farmer 1/viewport 37 38/pause 500/faceDirection Juliet 1/pause 500/faceDirection Juliet 3/pause 500/speak Juliet \"Phew, that was hilarious! Did you see the look on his face!#$b#But ugh, I suppose I'll suffer the consequences tomorrow. He's such a freaking killjoy.\"/pause 500/face Juliet 1/pause 500/emote Juliet 40/speak Juliet \"Sometimes I just feel like I'm a kettle full of bitter, angry energy, @.$5#$b#It boils in every pore and I can't hold it back...$2#$b#Bashing the crap out of the drums helps... Smashing melons helps...But nothing really wipes away the guilt.\"/pause 500/shake Juliet 250/pause 500/move Juliet 3 0 1/pause 500/emote Juliet 28/pause 500/move farmer 3 0 1/pause 500/faceDirection Juliet 3/pause 500/emote Juliet 60/pause 500/speak Juliet \"Yoba, listen to me. You didn't want an invite to my self-pity party.$5#$b#I know I can't change the past... that I've gotta find redemption inside myself. But I'm not gonna lie, it's freaking hard.$2#$b#I'm just real lucky to have people who - despite everything have got my back: Gale, Gremlin. And you.$4\"/pause 500/emote farmer 20/speak Juliet \"Thank you, @, for putting up with my BS.$4\"/pause 500/emote Juliet 20/emote farmer 32/pause 400/speak Juliet \"Come on, wanna do something totally crazy? Let's jump naked in the lake!$1\"/pause 500/emote farmer 28/pause 1000/end"
 
 
+        }
+},
 
-
+{
+	"Action": "Load",
+	"Target": "Maps/Cemetery",
+	"FromFile": "assets/img/Cemetery.tmx"
+        },
+        
+{
+    "Action": "Load",
+    "Target": "Characters/Crow",
+    "FromFile": "assets/img/crow.png"
 
 }
+
+{	
+    "Action": "EditData",
+    "Target": "Data/Events/Farm",
+    "Entries":{
+    "86571130/f Juliet 2502/e 86571120/x Juliet_invite": "null"
+        }
+},
+
+{   "Action": "EditData",
+    "Target": "Data/mail",
+    "Entries":{ 
+        "Juliet_invite": "Hey babe!^Guess what? The powers-that-be have granted me parole, and there's someone in Grampleton I've gotta talk to.^No pressure, but if you could come along and hold my hand - metaphorically or literally! - I could really use the company.^I'll be headed out after 5 pm, if you want to meet me at the bus stop?^- Juliet. [#]Juliet's request"
+    }
+},
+
+{	
+    "Action": "EditData",
+"Target": "Data/Events/BusStop",
+"Entries":{
+"86571131/t 1700 1900/n Juliet_invite": "continue/viewport 12 11/farmer 12 19 0 Juliet 13 10 0/skippable/pause 500/move farmer 0 -4 0/faceDirection Juliet 2/emote Juliet 20/move farmer 0 -1 0/move Juliet 0 1 2/speak Juliet \"You came! I mean. Of course, I knew you would, cos I'm irresistable and I've piqued your curiosity...but still...$1#$b#Thank you, @. It means a lot.$4\"/emote farmer 32/pause 1500/emote farmer 8/pause 1000/speak Juliet \"Where are we going? Oh, to visit someone... It's time I finally laid my past to rest.$2\"/faceDirection Juliet 3/speak Juliet \"Come on, we should go. Let's get this done.$2\"/pause 500/move farmer 0 -4 0/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap Cemetery false/speak Juliet \"Dammit... I'm nervous... This is my first time going to visit him. And yeah, I know it's dumb but...$2#$b#%Juliet is shaking.\"/pause 1000/playSound busDoorOpen/speak Juliet \"Well, here we are then... the dead center of town...$2#$b#... Grampleton Memorial Garden.\"/pause 500/warp Juliet 11 25/faceDirection Juliet 1/warp farmer 12 25/faceDirection farmer 0/playMusic {{season}}_day_ambient/viewport 11 19/move Juliet 0 -10 0 true/move farmer 0 -10 0/pause 2000/faceDirection Juliet 1 true/faceDirection farmer 3/pause 500/speak Juliet \"Not what you expected?\"/emote farmer 32/pause 500/faceDirection Juliet 3/pause 500/faceDirection Juliet 1/speak Juliet \"Peaceful, isn't it? Kind of boring. I bet he hates it.\"/advancedMove Juliet false 0 -4 -3 0 0 -1/faceDirection Juliet 0/move farmer 0 -5 3/move farmer -3 0 3/pause 500/faceDirection farmer 0/Message \"Nathanial Donahue^Taken too soon. Forever in our hearts.\"/pause 500/speak Juliet \"Hey Nate. Sorry I've been a crap little sis. First I let you get yourself killed, then I fell off the damn rails and got myself exiled, so I couldn't even visit you.$2#$b#Anyhow, I'm here now and I've brought someone to meet you.$2\"/pause 500/faceDirection Juliet 1 true/faceDirection farmer 3/pause 500/emote Juliet 20/pause 500/faceDirection Juliet 0/speak Juliet \"Yeh life ain't too bad; I've found good people who've helped me pick up the freaking mess I'd made.\"/pause 500/faceDirection Juliet 1/pause 400/faceDirection Juliet 0/speak Juliet \"Anyway, it sucks that you didn't get this chance too, Nate. But I hope that, wherever you are, you've finally found peace.$4#$b#Either that or you're raising hell.$1#$b#Anyway, here... I brought you something. I know, it's lame and you're probably gonna hate it. But tough.\"/pause 500/addObject 8 10 562/pause 1500/faceDirection Juliet 1/pause 500/speak Juliet \"Thanks for coming with me, @. It well... It means a lot.$4\"/animate Juliet false false 4500 28/animate farmer true false 4500 101/positionOffset farmer -10 0/positionOffset Juliet 10 0/textAboveHead Juliet \"<\"/addTemporaryActor crow 16 16 20 9 3 false/move crow -13 0 3/showFrame crow 16/playSound crow/pause 500/jump Juliet 2/faceDirection Juliet 0 true/faceDirection farmer 0 true/showFrame crow 17/pause 500/showFrame crow 16/emote Juliet 8/pause 4000/textAboveHead Juliet \"Nathan?\"/pause 1000/faceDirection farmer 3/emote farmer 16/playSound crow/faceDirection Juliet 1/pause 1000/emote Juliet 60/pause 3000/end dialogue Juliet \"Yeh, I know, it was just a passing fancy... I don't really believe my brother came back as a crow.$4#$b#But I can't help but hope there's something after death, something more than the cold, dark embrace of the void.$2\""
+
+    }
+},    
+
+{	
+    "Action": "EditData",
+"Target": "Data/Events/VetHouse",
+"Entries":{
+    "86571140/e 86571101/t 1000 1800": ""
+        },
+    "When": {
+        "HasMod": "Lemurkat.JacobEloise.CP"
+},
+
+
+
+
+
+
+
 ]
 }
