@@ -13,9 +13,8 @@ Lodging House:
 - requires Daisy Niko Tilesheets to load.
 
 Juliet: 
-- Heart events 2, 4 and 6 implemented.
+- Heart events 2, 4, 6, 8, 10 implemented.
 - Schedule organized for Joja, Community Center and Theater
-** Theater schedule currently only works with Karmylla's Immersive Maps installed and town map active. This will hopefully be fixed with the release of 'NPC Creatures' which will allow me to warp Juliet instead of relying on pathfinding.**
 - Needs additional Dialogue and current dialogue/heart events subject to change.
 - Marriage Dialogue incomplete.
 - Marriage schedule not done.
