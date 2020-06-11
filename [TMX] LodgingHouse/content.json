@@ -29,19 +29,40 @@
 
   ],
     
-  /* {"mergeMaps": [
+  "mergeMaps": [
+         {
+        "name": "MovieTheater",
+        "file": "assets/MovieTheater-altClerk.tmx",
+        "sourceArea": [ 0, 0, 1, 2 ],
+        "position": [ 7, 4 ],
+        "Conditions": "d Mon Tue Wed Thu Fri"
+      },
+      {
+        "name": "MovieTheater",
+        "file": "assets/MovieTheater-altClerk.tmx",
+        "sourceArea": [ 0, 0, 1, 2 ],
+        "position": [ 7, 4 ],
+        "Conditions": "d Sat Sun/t 1700 2300"
+      },
+      {
+        "name": "Town-Theater",
+        "File": "assets/TheaterDoor.tmx",
+        "sourceArea": [0,0, 1, 2],
+        "position": [ 100, 49 ]
+				
+				
+      },
+      {
+        "name": "Town",
+        "File": "assets/JojaWarpPatch.tbin",
+        "sourceArea": [0,0, 4, 3],
+        "position": [ 90, 44 ]
+				
+				
+      }
+     
   
-    "name": "Town", 
-  "file": "assets/Town-staircasePatch-SVR2.tmx",
-  "position": [32,0] 
-    },
-
-  {  
-    "name": "Town",
-    "File": "assets/JojaBackDoor.tmx",
-    "position": [90,45]
-}
-],*/
+],
 
 
 
@@ -49,7 +70,7 @@
     {
       "name": "Town", 
       "addWarps": [
-        "33 0 ClearingHouse 24 29 34 0 ClearingHouse 25 29 35 0 ClearingHouse 26 29"
+        "33 0 ClearingHouse 24 29 34 0 ClearingHouse 25 29 35 0 ClearingHouse 26 29 92 45 TheaterBreakroom 2 11"
       ]
     },
 	{
@@ -64,15 +85,15 @@
   {
     "name": "Juliet",
     "map": "Town-EggFestival",
-    "position": [14, 57],
-    "direction": 2,
+    "position": [31, 61],
+    "direction": 3,
     "position2": [39, 71],
     "direction2": 3
           },
   {
     "name": "Gale",
     "map": "Town-EggFestival",
-    "position": [15, 57],
+    "position": [16, 63],
     "direction": 2,
     "position2": [16, 57],
     "direction2": 2
@@ -118,9 +139,47 @@
   "position": [49, 22],
   "direction": 0,
   "position2": [26, 20],
-  "direction2": 0,
-  "Conditions": "e 86571101"
-        }   
+  "direction2": 0
+        },
+        
+{
+  "name": "Gremlin",
+  "map": "Beach-Jellies",
+  "position": [9, 10],
+  "direction": 3
+        } ,
+{
+  "name": "Juliet",
+  "map": "Beach-Jellies",
+  "position": [9, 9],
+  "direction": 3        
+},
+{
+  "name": "Gale",
+  "map": "Beach-Jellies",
+  "position": [54, 7],
+  "direction": 2        
+},
+{
+  "name": "Juliet",
+  "map": "Town-Fair",
+  "position": [22, 63],
+  "direction": 1        
+},
+{
+  "name": "Gale",
+  "map": "Town-Fair",
+  "position": [68, 71],
+  "direction": 2        
+},
+{
+  "name": "Gremlin",
+  "map": "Town-Fair",
+  "position": [6, 65],
+  "direction": 1        
+}
+
+          
 
 
 ]
