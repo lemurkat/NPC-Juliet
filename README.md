@@ -70,3 +70,14 @@ At least three mods I know of add a JojaMart event file: SVE, Nikolai and Herber
 },
 
  which uploads a blank JojaMart event file if the config is set to True. Note it is True by default, and you will need to actually check the smapi text to notice a conflict (or just discover a heart event won't trigger). The actual event is then added via EditData as per usual.
+
+STARDEW VALLEY EXPANDED COMPATIBILITY:
+Whilst I am not currently intending to make Juliet SVE compatible myself, listed below are the major things that would need to be adjusted if she were to be. This is for reference of anyone who might be tempted to alter her for SVE themselves (and if you do, can you please let me know and send it to me, and I'll distribute it).
+
+* Adjust Juliet's schedule so she stands at the other Joja Counter.
+* This mod replaces the entire interior of JojaMart, for SVE compatibility, you would need to only patch the door and the area at the back to provide access to the backroom.
+* Rewrite Juliet's 4-heart event as it is set outside the JojaMart and SVE adds fences.
+* Rework the theater: check the access points for both characters, remove the tiledata character and basically overhaul it all entirely (Juliet never actually enters the theater proper, just the backroom). Easiest option would be to remove the backroom altogether and keep Juliet on her Community Center schedule.
+* Set Jessie's schedule to always use the post-JojaMart one and have her no longer working the evening shifts.
+* Stop Shane from working the counter on rainy days.
+* Add dialogue to Juliet referencing Claire.
